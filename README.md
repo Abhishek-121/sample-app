@@ -13,4 +13,16 @@ Finally, run the test suite to verify that everything is working correctly:
 $ rails test
 ```If the test suite passes, you'll be ready to run the app in a local server:
 ```
+
+## To start the rail server in command prompt - 
+
+``` 
+$ rails server/s
+```
+
+## To see your application on the server(localhost)
+
+```
 $ rails server : http://localhost:3000
+```
+
