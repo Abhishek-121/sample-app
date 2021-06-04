@@ -3,12 +3,15 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 gem 'bcrypt',         '3.1.13'
 gem 'bootstrap-sass', '3.4.1'
+gem 'bootstrap-will_paginate', '1.0.0'
+gem 'faker',      '2.11.0'
 gem 'jbuilder',   '2.10.0'
 gem 'puma',       '5.3.1'
 gem 'rails',      '6.1.3.2'
 gem 'sass-rails', '6.0.0'
 gem 'turbolinks', '5.2.1'
 gem 'webpacker',  '5.2.1'
+gem 'will_paginate', '3.3.0'
 gem 'bootsnap',   '1.7.2', require: false
 
 group :development, :test do
