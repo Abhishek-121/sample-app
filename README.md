@@ -18,7 +18,8 @@ $ rails test
 ## To start the rail server in command prompt - 
 
 ``` 
-$ rails server/s
+$ rails console or rails c
+$ rails server or rails s
 ```
 
 ## To see your application on the server(localhost)
