@@ -1,0 +1,9 @@
+<%= form_with(model: @micropost, local: true) do |f| %> 
+  <%= render 'shared/error_messages', object: f.object %> 
+  <%# object: f.object creates a variable called object in the error_messages partial, 
+      and we can use it to construct a customized error message. %>
+  <div class="field">
+    <%= f.text_area :content, placeholder: "Compose new micropost..." %> 
+  </div>
+  <%= f.submit "Post", class: "btn btn-primary" %> 
+<% end %>
